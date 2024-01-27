@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken-Bold';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+:root {
+    --theme-red-color: #E82B4B;
+    --theme-black-color: #000000;
+    --theme-gray-color: #D9D9D9;
+    --theme-gray-font-color: #666;
+    --theme-black-font-color: #111;
+    --theme-white-font-color: #fff;
+    --theme-btn-hover-color: #2d2d2d;
+    --bg-color: #f4f3ff;
+    --btn-color: #e9442798;
+    --dark-color: #242424;
+    --helper-color: #99b9ff;
+}
+
+@font-face {
+    font-family: 'Hanken-Bold';
+    src: url(../public/fonts/HankenGrotesk/HankenGrotesk-Bold.ttf);
+}
