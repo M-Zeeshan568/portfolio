@@ -14,9 +14,8 @@ const Counterup = () => {
         <div
           style={{
             width: "100%",
-            background: "black",
             color: "white",
-            padding: "50px",
+            // padding: "50px",
           }}
         >
           <h1>

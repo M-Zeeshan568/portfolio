@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
-import './error.css';
+import { NavLink } from "react-router-dom";
+import "./error.css";
 
 const Error = () => {
   return (
     <>
-       <section id="error-page">
+      <section id="error-page">
         <div className="content">
           <h2 className="header">404</h2>
           <h4>Sorry! Page not found</h4>
@@ -20,7 +20,7 @@ const Error = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 export default Error;

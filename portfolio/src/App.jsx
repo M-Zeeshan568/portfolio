@@ -5,7 +5,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/common/Footer";
 import "./App.css";
-import Error from "./components/Error";
+import Error from "./pages/Error";
 import Home from "./pages/Home";
 
 const App = () => {
