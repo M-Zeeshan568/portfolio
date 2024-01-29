@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/common/Navbar";
-import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Services from "./pages/Services";
-import Contact from "./pages/Contact";
 import Footer from "./components/common/Footer";
 import "./App.css";
 import Error from "./pages/Error";
@@ -14,9 +13,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

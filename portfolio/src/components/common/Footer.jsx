@@ -80,23 +80,8 @@ const Footer = () => {
                           </h3>
                         </div>
                       </div>
-                      <div className="col-md-6">
-                        <div className="footer_bottom_height_div d-flex align-items-center">
-                          <div className="footer_input_wrapper my-3 position-relative">
-                            <input
-                              type="text"
-                              placeholder="Please enter your email"
-                            />
-                            <img
-                              className="position-absolute"
-                              src="assets/images/input-arrow-footer-section.png"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 ">
-                        <div className="footer_text_div footer_bottom_height_div  footer_bottom_height_div_2 d-flex align-items-center">
+                      <div className=" col-xxl-9 col-xl-9 col-lg-9 col-md-12">
+                        <div className="footer_text_div footer_bottom_height_div  footer_bottom_height_div_2 d-flex justify-content-center align-items-center">
                           <p> Copyright © 2023 for vmix </p>
                         </div>
                       </div>
