@@ -8,7 +8,7 @@ const Navbar = () => {
       <section id="header-section">
         <div className="container-fluid p-0">
           <nav className="navbar navbar-expand-lg navbar-dark">
-            <div className="container-xxl">
+            <div className="container-xxl animate__animated animate__backInRight animate__slow">
               <a className="navbar-brand" to="#">
                 <img src="/images/LOGO_BLACK.png" width={100} alt="" />
               </a>

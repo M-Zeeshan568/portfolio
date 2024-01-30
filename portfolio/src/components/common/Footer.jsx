@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer_main_wrapper d-flex flex-column">
               <div className="container-xl p-0">
                 <div className="footer_top_div">
-                  <div className="row">
+                  <div className="row animate__animated animate__bounceInUp animate__slow">
                     <div className="col-md-4">
                       <img src="/images/LOGO_GRAY.png" width={100} alt="" />
                     </div>
@@ -59,7 +59,7 @@ const Footer = () => {
               <div className="background_color_div mt-auto">
                 <div className="container-xl p-0">
                   <div className="footer_bottom_div ">
-                    <div className="row">
+                    <div className="row animate__animated animate__backInRight animate__slow">
                       <div className="col-md-3">
                         <div className="footer_bottom_div_col_1 position-relative">
                           <img

@@ -1,6 +1,6 @@
 import "./resume.css";
 
-const About = () => {
+const Resume = () => {
   return (
     <>
       <div className="container-xxl">
@@ -45,6 +45,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
         {/* ABOUT-SECTION-END */}
         {/* EXPERENCE-SECTION-START */}
         <div className="experience_section my-5">
@@ -135,4 +136,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Resume;
