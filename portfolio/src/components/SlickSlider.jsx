@@ -39,23 +39,30 @@ const SlickSlider = () => {
     <Slider {...settings}>
       <div>
         <Card
-          img="https://i.imgur.com/QYWAcXk.jpeg"
-          heading="Title"
-          para="welcome to my website and thanks a lot for visiting my website."
+          img="/images/team/bilal.jpg"
+          heading="Bilal"
+          para="Passionate javascript developer with 3+ years of experience building robust and scalable web applications."
         />
       </div>
       <div>
         <Card
-          img="https://i.imgur.com/QYWAcXk.jpeg"
-          heading="Title"
-          para="welcome to my website and thanks a lot for visiting my website."
+          img="/images/team/zubair.jpg"
+          heading="Zubair"
+          para="Passionate Laravel developer with 7+ years of experience building robust and scalable web applications."
         />
       </div>
       <div>
         <Card
-          img="https://i.imgur.com/QYWAcXk.jpeg"
-          heading="Title"
-          para="welcome to my website and thanks a lot for visiting my website."
+          img="/images/team/majur.jpg"
+          heading="Bilal"
+          para="Passionate Laravel developer with 5+ years of experience building robust and scalable web applications."
+        />
+      </div>
+      <div>
+        <Card
+          img="/images/team/hamid.jpg"
+          heading="Hamid"
+          para="Passionate dot net developer with 3+ years of experience building robust and scalable web applications."
         />
       </div>
     </Slider>

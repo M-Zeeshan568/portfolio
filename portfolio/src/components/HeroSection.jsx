@@ -13,14 +13,7 @@ const HeroSection = () => {
               <h1 className="heading text-white">
                 {" "}
                 <TypeAnimation
-                  sequence={[
-                    "I'm a Developer",
-                    1000,
-                    "I'm a Writer",
-                    1000,
-                    "I'm a Designer",
-                    1000,
-                  ]}
+                  sequence={["I'm a Developer", 1000, "I'm a Designer", 1000]}
                   speed={500}
                   repeat={Infinity}
                 />

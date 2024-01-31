@@ -1,29 +1,9 @@
 import ServicesCard from "../components/ServicesCard";
 import "./services.css";
+import { servicesApi } from "../components/Api";
 
 const Services = () => {
-  const servicesApi = [
-    {
-      img: "/images/services/HTML5.svg",
-      heading: "Air Transport",
-      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
-    },
-    {
-      img: "/images/services/HTML5.svg",
-      heading: "Air Transport",
-      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
-    },
-    {
-      img: "/images/services/HTML5.svg",
-      heading: "Air Transport",
-      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
-    },
-    {
-      img: "/images/services/HTML5.svg",
-      heading: "Air Transport",
-      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
-    },
-  ];
+
 
   return (
     <>
