@@ -5,7 +5,7 @@ const Resume = () => {
     <>
       <div className="container-xxl">
         {/* ABOUT-SECTION-START */}
-        <div className="about_section">
+        <div className="about_section" data-aos="flip-left" data-aos-duration="2000">
           <div className="row">
             <div className="col-md-6">
               <div className="about_description_section">
@@ -48,7 +48,7 @@ const Resume = () => {
 
         {/* ABOUT-SECTION-END */}
         {/* EXPERENCE-SECTION-START */}
-        <div className="experience_section my-5">
+        <div className="experience_section my-5" data-aos="flip-left" data-aos-duration="2000">
           <div className="work-experience-section">
             <h2 className="h3 mb-4 text-dark">Work Experience</h2>
             <div className="timeline">
@@ -91,7 +91,7 @@ const Resume = () => {
         </div>
         {/* EXPERENCE-SECTION-END */}
         {/* EDUCATION-SECTION-END */}
-        <div className="education-section py-5">
+        <div className="education-section py-5" data-aos="flip-left" data-aos-duration="2000">
           <h2 className="h3 mb-4 text-dark">Education</h2>
           <div className="timeline">
             <div className="timeline-card timeline-card-success shadow-sm">

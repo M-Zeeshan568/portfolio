@@ -1,8 +1,30 @@
 import ServicesCard from "../components/ServicesCard";
 import "./services.css";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const Services = () => {
+  const servicesApi = [
+    {
+      img: "/images/services/HTML5.svg",
+      heading: "Air Transport",
+      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
+    },
+    {
+      img: "/images/services/HTML5.svg",
+      heading: "Air Transport",
+      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
+    },
+    {
+      img: "/images/services/HTML5.svg",
+      heading: "Air Transport",
+      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
+    },
+    {
+      img: "/images/services/HTML5.svg",
+      heading: "Air Transport",
+      para: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
+    },
+  ];
+
   return (
     <>
       <div className="container-xxl">
@@ -12,51 +34,19 @@ const Services = () => {
             <div className="service_container">
               <div className="container ">
                 <div className="heading_container text-center py-5">
-                  <ScrollAnimation
-                    animateIn="bounceInRight"
-                    animateOut="bounceOutLeft"
-                    initiallyVisible={true}
+                  <h2
+                    className="text-dark"
+                    data-aos="flip-down"
+                    data-aos-duration="2000"
                   >
-                    <h2 className="text-dark">
-                      <span>Services</span>
-                    </h2>
-                  </ScrollAnimation>
+                    <span>Services</span>
+                  </h2>
                 </div>
-                <div className="row">
-                  <div className="col-md-6 ">
-                    <ServicesCard
-                      img="/images/services/HTML5.svg"
-                      heading="Air Transport"
-                      para="fact that a reader will be distracted by the readable content of a
-                      page when looking at its layout. The point of using"
-                    />
-                  </div>
-                  <div className="col-md-6 ">
-                    <ServicesCard
-                      img="/images/services/HTML5.svg"
-                      heading="Air Transport"
-                      para="fact that a reader will be distracted by the readable content of a
-                      page when looking at its layout. The point of using"
-                    />
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 ">
-                    <ServicesCard
-                      img="/images/services/HTML5.svg"
-                      heading="Air Transport"
-                      para="fact that a reader will be distracted by the readable content of a
-                      page when looking at its layout. The point of using"
-                    />
-                  </div>
-                  <div className="col-md-6 ">
-                    <ServicesCard
-                      img="/images/services/HTML5.svg"
-                      heading="Air Transport"
-                      para="fact that a reader will be distracted by the readable content of a
-                      page when looking at its layout. The point of using"
-                    />
-                  </div>
+
+                <div className="d-flex flex-wrap justify-content-between" data-aos="slide-right" data-aos-duration="2000">
+                  {servicesApi.map((curElem, index) => {
+                    return <ServicesCard key={index} {...curElem} />;
+                  })}
                 </div>
               </div>
             </div>

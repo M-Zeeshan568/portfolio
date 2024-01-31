@@ -1,6 +1,8 @@
 import "./servicescard.css";
 
-const ServicesCard = ({ img, heading, para }) => {
+const ServicesCard = (curElem) => {
+  const { img, heading, para } = curElem;
+  console.log(curElem);
   return (
     <>
       <div className="box">

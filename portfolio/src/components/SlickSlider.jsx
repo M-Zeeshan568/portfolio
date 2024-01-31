@@ -5,6 +5,7 @@ import "./slickslider.css";
 import Card from "./Card";
 
 const SlickSlider = () => {
+
   const settings = {
     dots: true,
     infinite: true,
@@ -32,6 +33,7 @@ const SlickSlider = () => {
       },
     ],
   };
+  
 
   return (
     <Slider {...settings}>
