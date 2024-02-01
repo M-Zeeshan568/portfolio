@@ -8,7 +8,11 @@ const Navbar = () => {
       <section id="header-section">
         <div className="container-fluid p-0">
           <nav className="navbar navbar-expand-lg navbar-dark">
-            <div className="container-xxl" data-aos="slide-left" data-aos-duration="2000">
+            <div
+              className="container-xxl"
+              data-aos="slide-left"
+              data-aos-duration="2000"
+            >
               <a className="navbar-brand" to="#">
                 <img src="/images/LOGO_BLACK.png" width={100} alt="" />
               </a>
@@ -24,7 +28,7 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon" />
               </button>
               <div
-                className="collapse navbar-collapse"
+                className="collapse navbar-collapse text-md-center"
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav m-auto mb-2 mb-lg-0">

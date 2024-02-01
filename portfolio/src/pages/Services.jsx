@@ -1,10 +1,8 @@
 import ServicesCard from "../components/ServicesCard";
 import "./services.css";
-import { servicesApi } from "../components/Api";
+import { servicesApi } from "../components/Apis";
 
 const Services = () => {
-
-
   return (
     <>
       <div className="container-xxl">
@@ -23,7 +21,10 @@ const Services = () => {
                   </h2>
                 </div>
 
-                <div className="d-flex flex-wrap justify-content-between" data-aos="slide-right" data-aos-duration="2000">
+                <div
+                  className="d-flex flex-wrap justify-content-between"
+                  style={{ marginBottom: "30px" }}
+                >
                   {servicesApi.map((curElem, index) => {
                     return <ServicesCard key={index} {...curElem} />;
                   })}

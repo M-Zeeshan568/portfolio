@@ -5,3 +5,9 @@
     margin: 11px;
     width: 47%;
 }
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

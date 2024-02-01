@@ -5,7 +5,7 @@ const ServicesCard = (curElem) => {
   console.log(curElem);
   return (
     <>
-      <div className="box">
+      <div className="box" data-aos="slide-right" data-aos-duration="2000">
         <div className="img-box">
           <img src={img} width={100} alt="" />
         </div>

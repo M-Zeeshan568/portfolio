@@ -13,7 +13,12 @@ const HeroSection = () => {
               <h1 className="heading text-white">
                 {" "}
                 <TypeAnimation
-                  sequence={["I'm a Developer", 1000, "I'm a Designer", 1000]}
+                  sequence={[
+                    "I'm a Web Developer",
+                    1000,
+                    "I'm a Web Designer",
+                    1000,
+                  ]}
                   speed={500}
                   repeat={Infinity}
                 />
@@ -21,7 +26,7 @@ const HeroSection = () => {
               <p className="para text-white">
                 {" "}
                 <BlinkingText
-                  text="hy, I'm Zeeshan Javaid web developer.Welcome to web development
+                  text="Hy, I'm Zeeshan Javaid web developer.Welcome to web development
                 world."
                 />{" "}
               </p>

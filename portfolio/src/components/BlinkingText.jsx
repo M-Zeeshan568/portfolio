@@ -16,8 +16,10 @@ const BlinkingTextWrapper = styled.div`
   animation: ${blinkAnimation} 3s infinite;
 `;
 
-const BlinkingText = ({ text }) => {
-  return <BlinkingTextWrapper>{text}</BlinkingTextWrapper>;
+const BlinkingText = ({ text, className }) => {
+  return (
+    <BlinkingTextWrapper className={`${className}`}>{text}</BlinkingTextWrapper>
+  );
 };
 
 export default BlinkingText;

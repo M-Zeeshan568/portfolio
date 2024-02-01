@@ -1,7 +1,8 @@
 import "./resume.css";
-import { educationApi, workExperienceApi } from "../components/Api";
+import { educationApi, workExperienceApi } from "../components/Apis";
 import WorkEXpereinceCard from "../components/WorkEXpereinceCard";
 import EducationCard from "../components/EducationCard";
+import BlinkingText from "../components/BlinkingText";
 
 const Resume = () => {
   return (
@@ -18,25 +19,22 @@ const Resume = () => {
               <div className="about_description_section">
                 <h1 className="text-dark"> About Me </h1>
                 <p className="text-dark para_2">
-                  {" "}
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quasi enim assumenda error ratione debitis veniam soluta
-                  dolore, delectus quae qui dignissimos voluptate! Quasi
-                  voluptatum harum velit delectus facere reiciendis fugit?{" "}
+                  I'm a web developer with a passion for crafting engaging and
+                  performant user experiences. I'm proficient in{" "}
+                  <BlinkingText
+                    className="d-inline"
+                    text="HTML ,CSS ,JavaScript, React JS, Next JS, Node JS "
+                  />{" "}
+                  and I'm always eager to learn new technologies.
                 </p>
                 <p className="text-dark para_2">
-                  {" "}
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quasi enim assumenda error ratione debitis veniam soluta
-                  dolore, delectus quae qui dignissimos voluptate! Quasi
-                  voluptatum harum velit delectus facere reiciendis fugit?{" "}
+                  I thrive on solving complex challenges and delivering
+                  innovative solutions.
                 </p>
                 <p className="text-dark para_2">
-                  {" "}
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quasi enim assumenda error ratione debitis veniam soluta
-                  dolore, delectus quae qui dignissimos voluptate! Quasi
-                  voluptatum harum velit delectus facere reiciendis fugit?{" "}
+                  In my recent role at Backendz and Mobizill Company, I
+                  spearheaded the development of a React-based e-commerce
+                  platform that achieved a 20% increase in conversion rates.
                 </p>
               </div>
             </div>
@@ -55,13 +53,15 @@ const Resume = () => {
 
         {/* ABOUT-SECTION-END */}
         {/* EXPERENCE-SECTION-START */}
-        <div
-          className="experience_section my-5"
-          data-aos="flip-left"
-          data-aos-duration="2000"
-        >
+        <div className="experience_section my-5">
           <div className="work-experience-section">
-            <h2 className="h3 mb-4 text-dark">Work Experience</h2>
+            <h2
+              className="h3 mb-4 text-dark"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+            >
+              Work Experience
+            </h2>
             {workExperienceApi.map((data, index) => {
               return <WorkEXpereinceCard key={index} {...data} />;
             })}
@@ -70,12 +70,14 @@ const Resume = () => {
         </div>
         {/* EXPERENCE-SECTION-END */}
         {/* EDUCATION-SECTION-END */}
-        <div
-          className="education-section py-5"
-          data-aos="flip-left"
-          data-aos-duration="2000"
-        >
-          <h2 className="h3 mb-4 text-dark">Education</h2>
+        <div className="education-section py-5">
+          <h2
+            className="h3 mb-4 text-dark"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+          >
+            Education
+          </h2>
           {educationApi.map((data, index) => {
             return <EducationCard key={index} {...data} />;
           })}

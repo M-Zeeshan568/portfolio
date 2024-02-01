@@ -8,7 +8,11 @@ const Home = () => {
     <>
       <HeroSection />
       <div className="container-xl">
-        <div className="counter_wrapper position-relative d-flex justify-content-evenly align-items-center" data-aos="flip-left" data-aos-duration="2000">
+        <div
+          className="counter_wrapper position-relative d-flex justify-content-evenly align-items-center"
+          data-aos="flip-left"
+          data-aos-duration="2000"
+        >
           <div className="counter_div">
             <CountUp />
             <p> All Services </p>
@@ -26,7 +30,9 @@ const Home = () => {
           <div className="heading d-flex justify-content-center py-5">
             <h1> Team </h1>
           </div>
-          <SlickSlider />
+          <div>
+            <SlickSlider />
+          </div>
         </div>
       </div>
     </>
